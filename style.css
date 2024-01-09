@@ -1,0 +1,59 @@
+*{
+     
+}
+
+body{
+    margin: 0;
+}
+
+nav {
+        display: flex;
+        background: black;
+        color: white;
+        font-size: 1.5em;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 2em;
+        padding: 1em;
+    }
+
+
+nav div{ 
+    flex-grow: 1;
+}
+
+nav ul{
+    display: flex;
+    justify-content: space-between
+}
+
+.ul-container{
+    flex-grow: 1;
+}
+
+nav ul li {
+  list-style: none;
+}
+
+nav:last-child{
+    display: flex;
+    justify-content: flex-end;
+    
+}
+
+main * {
+
+
+}
+
+.products{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.product-card{
+    margin-top: 1em;
+    padding: 5em;
+    border: 2px solid black;
+}
